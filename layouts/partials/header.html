@@ -31,14 +31,19 @@
 <body class="home">
 
 <header id="header">
-	<div id="head" class="parallax" parallax-speed="2">
+	<div id="head" class="" parallax-speed="2" style="padding-bottom: 145px; padding-top: 1px">
+		<div>
+			<h1><span class="toptag">A Traditional Community to Serve the US</span></h1>
+		</div>
 		<h1 id="logo" class="text-center">
 			<img class="img-circle" style="opacity:0.0" src="{{ .Site.BaseURL }}images/avatar.jpg" alt="">
 			<span class="title">{{ .Site.Params.name }}</span>
 			<span class="tagline">{{ .Site.Params.description }}<br>
             </span>
 		</h1>
+		<div id="header-image"><img class="h_img" style="" src="{{ .Site.BaseURL }}images/avatar.PNG" alt=""></div>
 	</div>
+
 
     {{ partial "menu.html" . }}
 
