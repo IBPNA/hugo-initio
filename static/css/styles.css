@@ -256,11 +256,6 @@ a:hover {
   border-right-width: 0px;
   border-radius: 50%;
 }
-@media screen and (max-device-width: 480px) {
-	#head img.h_img{
-	opacity: 0.0	
-	}
-}
 #head .title {
   font-family: Alice, Georgia, serif;
   font-size: 49px;
@@ -286,12 +281,8 @@ a:hover {
 }
 #head .toptag {
 	font-size: 2.5rem;
+	font-size: 2.5vw;
 	font-family: Georgia;
-}
-@media screen and (max-device-width: 1280px) {
-	#head .toptag {
-		font-size 1.5rem;
-	}
 }
 .header-image img {
     display: block
@@ -310,6 +301,7 @@ a:hover {
 }
 .home #head .toptag {
 	font-size: 2.5rem;
+	font-size: 2.5vw;
 	font-family: Georgia;
 }
 @media screen and (max-device-width: 1280px) {
